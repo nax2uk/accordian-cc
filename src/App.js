@@ -11,7 +11,7 @@ function App() {
     <AccordionCC>
       <Section>
         <Title>
-          Paris<span>🧀</span>
+          Paris<span role="img" aria-label="cheese">🧀</span>
         </Title>
         <Content>
           <Description city="paris" />
@@ -19,7 +19,7 @@ function App() {
       </Section>
       <Section>
         <Title>
-          Lech <span>⛷</span>
+          Lech <span role="img" aria-label="ski">⛷</span>
         </Title>
         <Content>
           <Description city="lech" />
@@ -27,7 +27,7 @@ function App() {
       </Section>
       <Section>
         <Title>
-          Madrid <span>🍷</span>
+          Madrid <span role="img" aria-label="wine">🍷</span>
         </Title>
         <Content>
           <Description city="madrid" />
